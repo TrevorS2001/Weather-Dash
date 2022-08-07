@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <div class="container-fluid">
+        <div class="card">
+            <div>
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2">Search For A City</h5>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control searchInput" placeholder="Enter City Name">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary bg-primary search" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                                <ul class="list-group">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-4 mr-5">
+                    <div class="card currentCard pb-2 pt-1">
+                        <h5 class="card-title">Current Weather Forecast</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4">
+                        <div class="card pb-5 fiveDayCard pl-5">
+                            <h5 class="card-title mt-2 mr-5">5-Day Weather Forecast </h5>
+                            <div class="row">
+                                <div class="col fiveDayOne">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
